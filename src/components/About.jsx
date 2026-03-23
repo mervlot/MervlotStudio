@@ -61,7 +61,7 @@ export default function About() {
             <div style={{ position: 'absolute', top: -16, right: -16, width: '100%', height: '100%', border: '1px solid rgba(200,169,110,0.12)', zIndex: 0 }} />
 
             <div ref={imgWrapRef} style={{ position: 'relative', overflow: 'hidden', aspectRatio: '4/5', zIndex: 1 }}>
-              <motion.img src="/3.png" alt="About"
+              <motion.img src="/3.jpg" alt="About"
                 style={{ width: '100%', objectFit: 'cover', height: '110%', marginTop: '-5%', y: imgY }}
               />
               <div style={{ position: 'absolute', inset: 0, background: 'rgba(200,169,110,0.03)' }} />
