@@ -74,7 +74,7 @@ export default function Portfolio() {
               The<br /><em style={{ color: '#C8A96E' }}>Portfolio</em>
             </motion.h2>
           </div>
-          <motion.a href="#contact" initial={{ opacity: 0 }} animate={inView ? { opacity: 1 } : {}} transition={{ duration: 0.6, delay: 0.3 }}
+          <motion.a href="/gallery" initial={{ opacity: 0 }} animate={inView ? { opacity: 1 } : {}} transition={{ duration: 0.6, delay: 0.3 }}
             style={{ display: 'inline-flex', alignItems: 'center', gap: 8, fontFamily: 'Syne', fontSize: 11, letterSpacing: '0.18em', textTransform: 'uppercase', color: '#6B6560', textDecoration: 'none', transition: 'color 0.3s' }}
             onMouseEnter={e => e.currentTarget.style.color = '#C8A96E'}
             onMouseLeave={e => e.currentTarget.style.color = '#6B6560'}

@@ -26,7 +26,7 @@ export default function Navbar() {
       <div className="max-w-[1280px] mx-auto px-[8px] md:px-[16px] py-[14px] flex items-center justify-between gap-[8px] min-w-0">
 
         {/* Logo */}
-        <a href="#" className="flex items-center gap-[5px] no-underline flex-shrink-0">
+        <a href="/" className="flex items-center gap-[5px] no-underline flex-shrink-0">
           <img src="/mervlotstudio.png" alt="logo" className="h-[28px] w-[28px] flex-shrink-0" />
           <span className="font-['Syne'] uppercase text-[#C8A96E] text-[clamp(7px,2vw,11px)] tracking-[0.18em] whitespace-nowrap">
             MervlotStudio
