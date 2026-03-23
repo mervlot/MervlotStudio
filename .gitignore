@@ -3,7 +3,6 @@ node_modules/
 .deno/
 
 # Build output
-dist/
 build/
 
 # Deno lock (optional - remove this line if you want to commit it)
