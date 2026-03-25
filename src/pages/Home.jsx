@@ -17,7 +17,12 @@ export default function Home() {
       <Ticker />
       <Services />
       <Portfolio />
-      <BeforeAfter />
+       <BeforeAfter 
+  beforeSrc="1.jpg" 
+  afterSrc="2.jpg" 
+  title="The Difference" 
+  caption="See the transformation" 
+/>
       <Stats />
       <About />
       <Contact />
